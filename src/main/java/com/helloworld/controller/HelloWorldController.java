@@ -13,4 +13,8 @@ public class HelloWorldController {
 		return "Welcome to day 28 Spring Boot Application CI Pipeline assignment";
 	}
 
+	@GetMapping("/welcome")
+	public String getMessage(){
+		return "Congratulations Nazim CI/CD implemented successfully!!";
+	}
 }
